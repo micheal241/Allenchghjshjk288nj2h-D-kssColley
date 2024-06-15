@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CashApp Balance</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7dbb2c7d34.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.0.17/dist/sweetalert2.all.min.js"></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="top-content">
+            <div class="top-name">Allen D Colley</div>
+            <div><img class="top-img" src="cla.jpg" alt=""></div>
+        </div>
+
+        <br><br><br>
+        <div class="balance-content">
+            <div class="top-amt">
+                <div class="amount">$70,000.45</div>
+                <div class="available">Cash Balance</div>
+            </div>
+            <br><br>
+            <div class="btn">
+                <div><button id="freezeAccountButton" class="btn-1" href="#">Add Cash</button></div>
+                <div><button id="freezeButton" class="btn-2" href="#">Cash Out</button></div>
+            </div>
+        </div>
+
+        <br><br>
+        <div class="no-div">
+            <div align="center">
+                <div>041 215 663</div>
+                <div class="b-div">Routing</div>
+            </div>
+            <div align="center">
+                <div>88 **** ****</div>
+                <div class="b-div">Account</div>
+            </div>
+        </div>
+        <br><br>
+        <div class="cash-content">
+            <div class="cash-1">
+                <div> <span><i class="fa-solid fa-dollar-sign fa" style="color: #fafafa;"></i></span><span class="span-2">Cash in</span></div>
+                <div> <i class="fa-solid fa-arrow-right faa" style="color: #e3e3e3;"></i></div>
+            </div>
+            <br>
+            <div class="cash-2">
+                <div> <span><i class="fa-brands fa-bitcoin fab" style="color: #0c54cf;"></i></span><span class="span-2">Bitcoin</span></div>
+                <div> <i class="fa-solid fa-arrow-right faa" style="color: #e3e3e3;"></i></div>
+            </div>
+            <br>
+            <div class="cash-3">
+                <div><span><i class="fa-solid fa-building-columns fac" style="color: #f4f5f6;"></i></span><span class="span-2">Bank</span></div>
+                <div> <i class="fa-solid fa-arrow-right faa" style="color: #e3e3e3;"></i></div>
+            </div>
+        </div>
+        <br>
+        <div>
+            <footer>
+                <div><i class="fa-solid fa-id-card ft" style="color: #949494;" title="card"></i></div>
+                <div><i class="fa-solid fa-layer-group ft" style="color: #949494;" title="B.T.C"></i></div>
+                <div><i class="fa-solid fa-dollar-sign ft" style="color: #949494;" title="cash"></i></div>
+                <div><i class="fa-regular fa-clock ft" style="color: #949494;" title="transaction history"></i></div>
+            </footer>
+        </div>
+        
+
+    </div>
+
+    <script>
+        // Get a reference to the "Add Cash" button element
+        var freezeAccountButton = document.getElementById("freezeAccountButton");
+
+        // Add a click event listener to the "Add Cash" button
+        freezeAccountButton.addEventListener("click", function() {
+            // Display a SweetAlert2 popup with an icon
+            Swal.fire({
+                icon: 'error', // You can change 'error' to other icons like 'success', 'info', etc.
+                title: 'Account Frozen',
+                text: 'The account has been frozen'
+            });
+        });
+
+        // Get a reference to the "Cash Out" button element
+        var freezeButton = document.getElementById("freezeButton");
+
+        // Add a click event listener to the "Cash Out" button
+        freezeButton.addEventListener("click", function() {
+            // Display a SweetAlert2 popup with an icon
+            Swal.fire({
+                icon: 'error', // You can change 'error' to other icons like 'success', 'info', etc.
+                title: 'Account Frozen',
+                text: 'The account has been frozen'
+            });
+        });
+    </script>
+</body>
+</html>

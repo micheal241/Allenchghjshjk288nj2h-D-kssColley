@@ -1,0 +1,151 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;font-family: sans-serif;color: rgba(8, 8, 8, 0.795);
+}
+
+.main-container{
+    width: 400px;
+    /* border: 1px solid black; */
+    margin: auto;
+}
+
+.top-content{
+    width: 90%;
+    margin: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.top-name{
+    padding-top: 10px;
+}
+
+.top-img{
+   border-radius: 50%;
+   width: 50px;
+   height: 50px;
+}
+
+
+.balance-content{
+   width: 90%;
+   margin: auto;
+   
+}
+
+.amount{
+    width: 55%;
+   font-size: 40px;
+   font-weight: bolder;
+   margin: auto;
+}
+
+.available{
+    width: 30%;
+    margin: auto;
+    padding-top: 6px;
+    color: rgba(128, 128, 128, 0.904);
+}
+
+.btn{
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+
+.btn-1{
+ padding: 12px 25px;
+ background-color: rgba(211, 210, 210, 0.315);
+ margin-right: 25px;
+ margin-left: 35px;
+ border-radius: 40px;
+ text-decoration: none;
+ font-size: large;
+ font-weight: bold;
+ border: none;
+}
+
+.btn-1:hover,.btn-2:hover{
+   background-color: rgba(224, 223, 223, 0.849);
+   transition: all .5s ease-in-out;
+}
+
+.btn-2{
+ padding: 12px 25px;
+ background-color: rgba(211, 210, 210, 0.315);
+ border-radius: 40px;
+ text-decoration: none;
+ font-size: large;
+ font-weight: bold;
+ border: none;
+}
+
+.cash-content{
+    width: 80%;
+    margin: auto;
+}
+
+.cash-1{
+   display: flex;
+   justify-content: space-between;
+}
+.cash-2{
+   display: flex;
+   justify-content: space-between;
+}
+.cash-3{
+   display: flex;
+   justify-content: space-between;
+}
+
+.fa{
+    background-color: rgb(3, 202, 3);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.fac{
+    background-color: rgb(1, 149, 175);
+    padding: 12px 12px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.fab{
+    font-size: 40px;
+}
+.faa{
+   padding-top: 11px;
+    font-size: 25px;
+}
+
+.span-2{
+    font-size: larger;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+footer{
+    width: 100%;
+    /* border: 1px solid white; */
+    box-shadow: 0px -3px  5px rgb(194, 192, 192);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+.ft{
+    font-size: 30px;
+}
+
+.no-div{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    font-weight: bold;
+}
+.b-div{
+    padding: 5px;
+}
